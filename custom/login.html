@@ -1,9 +1,9 @@
 {% extends "templates/login.html" %}
 
 {% block main %}
-<div class=>
+<div class="main-content container">
   {% block login %}
-  <div class="main-content container">
+  <div class="col-sm-4 left-col">
     <div id="login-box">
       <h3 align="center">Login to JupyterHub</h3>
       {{ super() }}
@@ -13,11 +13,12 @@
   {% endblock login %}
 
   <div class="container col-sm-7">
-    <h1>Welcome to the Ericsson Research Quantum Computing Simulator - JupyterHub!</h1>
-    <p>This Simulator runs on ERDC and is open to everyone on the Ericsson Network, Please use your signum (lowercase) and password to login.
-       <br /> This simulator also comes with an introductory tutorial, Try it out! </p>
+    <h1>Welcome to the Ericsson Research Quantum Computing Simulator!</h1>
+    <p>This simulator runs on ERDC and is open to everyone on the Ericsson Network, Please use your signum (lowercase) and password to login.
+    </br>This simulator also comes with an introductory tutorial, Try it out! </p>
 
-    <h2>Disclaimer</h2>
+    
+     <h2>Disclaimer</h2>
     <p>This is a beta-release, It is run by volunteers and provides no guarantees or backups. It does not have a dedicated support team. </p>
   </div>
 </div>
