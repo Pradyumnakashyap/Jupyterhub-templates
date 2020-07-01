@@ -1,7 +1,7 @@
 {% extends "templates/login.html" %}
 
 {% block main %}
-<div class="main-content container">
+<div class="container col-sm-7">
   {% block login %}
   <div class="col-sm-4 left-col">
     <div id="login-box">
@@ -12,26 +12,12 @@
   </div>
   {% endblock login %}
 
-  <div class="container col-sm-7">
+  <div class="main-content container">
     <h1>Welcome to the Ericsson Research Quantum Computing Simulator - JupyterHub!</h1>
-    <p>This JupyterHub runs on ERDC and is open to everyone on the Ericsson Network, Please use your signum (lowercase) and password to login.
-      This simulator also comes with an introductory tutorial, Try it out! </p>
+    <p>This Simulator runs on ERDC and is open to everyone on the Ericsson Network, Please use your signum (lowercase) and password to login.
+       <br /> This simulator also comes with an introductory tutorial, Try it out! </p>
 
-    <h2 id="gettingstartedwithjupyter">Getting started with Jupyter</h2>
-    <p>
-      <a href="https://jupyter.org/index.html">Jupyter</a> is an environment where you can create interactive notebooks with code, visualizations, and more.
-    </p>
-
-    <p>Some resources to learn Jupyter:</p>
-    <ul>
-      <li>
-        <a href="https://jupyter.org/try">jupyter.org/try</a> has interactive demo-notebooks in many different programming languages.
-      </li>
-      <li>
-        <a href="https://github.com/Reproducible-Science-Curriculum/introduction-RR-Jupyter/blob/e5aece1011a43edfd739cbd83a2f4346091a86e2/notebooks/getting_started_with_jupyter_notebooks.ipynb"> Familiarize Yourself with Jupyter</a>, is an example Jupyter Notebook tutorial on GitHub.
-      </li>
-    </ul>
-     <h2>Disclaimer</h2>
+    <h2>Disclaimer</h2>
     <p>This is a beta-release, It is run by volunteers and provides no guarantees or backups. It does not have a dedicated support team. </p>
   </div>
 </div>
