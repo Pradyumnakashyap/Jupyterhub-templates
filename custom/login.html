@@ -1,9 +1,6 @@
 {% extends "templates/login.html" %}
-{% block main %}
-{{ super() }}
-<h1>Welcome to the Ericsson Research Quantum Computing Simulator! </h1> </br>
-<p>This simulator runs on ERDC and is open to everyone on the Ericsson Network, Please use your signum (lowercase) and password to login. </br>
-This simulator also comes with an introductory tutorial, Try it out!</p>
- <h2>Disclaimer</h2>
-<p>This is a beta-release, It is run by volunteers and provides no guarantees or backups. It does not have a dedicated support team.'</p>
-{% endblock %}
+{% set announcement = '<b>Welcome to the Ericsson Research Quantum Computing Simulator!</b> </br> This simulator runs on ERDC and is open to everyone on the Ericsson Network, Please use your signum (lowercase) and password to login. </br>
+This simulator also comes with an introductory tutorial, Try it out!</br>
+<b>Disclaimer</b> </br>
+This is a beta-release, It is run by volunteers and provides no guarantees or backups. It does not have a dedicated support team.' %}
+
